@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 app.get("/api/weather", async (req, res) => {
   const city = req.query.city;
-  // const apiKey = "7873742fb767ffda10da6472e0c631a8"; 
+
 
 
   if (!city) {
